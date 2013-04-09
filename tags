@@ -1,0 +1,650 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Ack	bundle/ack/plugin/ack.vim	/^command! -bang -nargs=* -complete=file Ack call s:Ack('grep<bang>',<q-args>)$/;"	c
+Ack	bundle/ack/plugin/ack.vim	/^function! s:Ack(cmd, args)$/;"	f
+AckAdd	bundle/ack/plugin/ack.vim	/^command! -bang -nargs=* -complete=file AckAdd call s:Ack('grepadd<bang>', <q-args>)$/;"	c
+AckFile	bundle/ack/plugin/ack.vim	/^command! -bang -nargs=* -complete=file AckFile call s:Ack('grep<bang> -g', <q-args>)$/;"	c
+AckFromSearch	bundle/ack/plugin/ack.vim	/^command! -bang -nargs=* -complete=file AckFromSearch call s:AckFromSearch('grep<bang>', <q-args>)$/;"	c
+AckFromSearch	bundle/ack/plugin/ack.vim	/^function! s:AckFromSearch(cmd, args)$/;"	f
+AckHelp	bundle/ack/plugin/ack.vim	/^command! -bang -nargs=* -complete=help AckHelp call s:AckHelp('grep<bang>',<q-args>)$/;"	c
+AckHelp	bundle/ack/plugin/ack.vim	/^function! s:AckHelp(cmd,args)$/;"	f
+Bookmark.AddBookmark	bundle/nerdtree/plugin/nerdtree/bookmark.vim	/^function! s:Bookmark.AddBookmark(name, path)$/;"	f
+Bookmark.BookmarkExistsFor	bundle/nerdtree/plugin/nerdtree/bookmark.vim	/^function! s:Bookmark.BookmarkExistsFor(name)$/;"	f
+Bookmark.BookmarkFor	bundle/nerdtree/plugin/nerdtree/bookmark.vim	/^function! s:Bookmark.BookmarkFor(name)$/;"	f
+Bookmark.BookmarkNames	bundle/nerdtree/plugin/nerdtree/bookmark.vim	/^function! s:Bookmark.BookmarkNames()$/;"	f
+Bookmark.Bookmarks	bundle/nerdtree/plugin/nerdtree/bookmark.vim	/^function! s:Bookmark.Bookmarks()$/;"	f
+Bookmark.CacheBookmarks	bundle/nerdtree/plugin/nerdtree/bookmark.vim	/^function! s:Bookmark.CacheBookmarks(silent)$/;"	f
+Bookmark.ClearAll	bundle/nerdtree/plugin/nerdtree/bookmark.vim	/^function! s:Bookmark.ClearAll()$/;"	f
+Bookmark.GetNodeForName	bundle/nerdtree/plugin/nerdtree/bookmark.vim	/^function! s:Bookmark.GetNodeForName(name, searchFromAbsoluteRoot)$/;"	f
+Bookmark.GetSelected	bundle/nerdtree/plugin/nerdtree/bookmark.vim	/^function! s:Bookmark.GetSelected()$/;"	f
+Bookmark.InvalidBookmarks	bundle/nerdtree/plugin/nerdtree/bookmark.vim	/^function! s:Bookmark.InvalidBookmarks()$/;"	f
+Bookmark.New	bundle/nerdtree/plugin/nerdtree/bookmark.vim	/^function! s:Bookmark.New(name, path)$/;"	f
+Bookmark.Sort	bundle/nerdtree/plugin/nerdtree/bookmark.vim	/^function! s:Bookmark.Sort()$/;"	f
+Bookmark.ToRoot	bundle/nerdtree/plugin/nerdtree/bookmark.vim	/^function! s:Bookmark.ToRoot(name)$/;"	f
+Bookmark.Write	bundle/nerdtree/plugin/nerdtree/bookmark.vim	/^function! s:Bookmark.Write()$/;"	f
+Bookmark.activate	bundle/nerdtree/plugin/nerdtree/bookmark.vim	/^function! s:Bookmark.activate(...)$/;"	f
+Bookmark.compareTo	bundle/nerdtree/plugin/nerdtree/bookmark.vim	/^function! s:Bookmark.compareTo(otherbookmark)$/;"	f
+Bookmark.delete	bundle/nerdtree/plugin/nerdtree/bookmark.vim	/^function! s:Bookmark.delete()$/;"	f
+Bookmark.getNode	bundle/nerdtree/plugin/nerdtree/bookmark.vim	/^function! s:Bookmark.getNode(searchFromAbsoluteRoot)$/;"	f
+Bookmark.mustExist	bundle/nerdtree/plugin/nerdtree/bookmark.vim	/^function! s:Bookmark.mustExist()$/;"	f
+Bookmark.open	bundle/nerdtree/plugin/nerdtree/bookmark.vim	/^function! s:Bookmark.open(...)$/;"	f
+Bookmark.openInNewTab	bundle/nerdtree/plugin/nerdtree/bookmark.vim	/^function! s:Bookmark.openInNewTab(options)$/;"	f
+Bookmark.setPath	bundle/nerdtree/plugin/nerdtree/bookmark.vim	/^function! s:Bookmark.setPath(path)$/;"	f
+Bookmark.str	bundle/nerdtree/plugin/nerdtree/bookmark.vim	/^function! s:Bookmark.str()$/;"	f
+Bookmark.toRoot	bundle/nerdtree/plugin/nerdtree/bookmark.vim	/^function! s:Bookmark.toRoot()$/;"	f
+Bookmark.validate	bundle/nerdtree/plugin/nerdtree/bookmark.vim	/^function! s:Bookmark.validate()$/;"	f
+Buffer	bundle/command-T/spec/command-t/scanner/buffer_scanner_spec.rb	/^  class Buffer; end$/;"	c	class:VIM
+BufferFinder	bundle/command-T/ruby/command-t/finder/buffer_finder.rb	/^  class BufferFinder < Finder$/;"	c	class:CommandT
+BufferScanner	bundle/command-T/ruby/command-t/scanner/buffer_scanner.rb	/^  class BufferScanner < Scanner$/;"	c	class:CommandT
+CommandT	bundle/command-T/plugin/command-t.vim	/^command -nargs=? -complete=dir CommandT call <SID>CommandTShowFileFinder(<q-args>)$/;"	c
+CommandT	bundle/command-T/ruby/command-t/controller.rb	/^module CommandT$/;"	m
+CommandT	bundle/command-T/ruby/command-t/finder.rb	/^module CommandT$/;"	m
+CommandT	bundle/command-T/ruby/command-t/finder/buffer_finder.rb	/^module CommandT$/;"	m
+CommandT	bundle/command-T/ruby/command-t/finder/file_finder.rb	/^module CommandT$/;"	m
+CommandT	bundle/command-T/ruby/command-t/finder/jump_finder.rb	/^module CommandT$/;"	m
+CommandT	bundle/command-T/ruby/command-t/finder/tag_finder.rb	/^module CommandT$/;"	m
+CommandT	bundle/command-T/ruby/command-t/match_window.rb	/^module CommandT$/;"	m
+CommandT	bundle/command-T/ruby/command-t/prompt.rb	/^module CommandT$/;"	m
+CommandT	bundle/command-T/ruby/command-t/scanner.rb	/^module CommandT$/;"	m
+CommandT	bundle/command-T/ruby/command-t/scanner/buffer_scanner.rb	/^module CommandT$/;"	m
+CommandT	bundle/command-T/ruby/command-t/scanner/file_scanner.rb	/^module CommandT$/;"	m
+CommandT	bundle/command-T/ruby/command-t/scanner/jump_scanner.rb	/^module CommandT$/;"	m
+CommandT	bundle/command-T/ruby/command-t/scanner/tag_scanner.rb	/^module CommandT$/;"	m
+CommandT	bundle/command-T/ruby/command-t/settings.rb	/^module CommandT$/;"	m
+CommandT	bundle/command-T/ruby/command-t/stub.rb	/^module CommandT$/;"	m
+CommandT	bundle/command-T/ruby/command-t/vim.rb	/^module CommandT$/;"	m
+CommandT	bundle/command-T/ruby/command-t/vim/path_utilities.rb	/^module CommandT$/;"	m
+CommandT	bundle/command-T/ruby/command-t/vim/screen.rb	/^module CommandT$/;"	m
+CommandT	bundle/command-T/ruby/command-t/vim/window.rb	/^module CommandT$/;"	m
+CommandTAcceptSelection	bundle/command-T/plugin/command-t.vim	/^function CommandTAcceptSelection()$/;"	f
+CommandTAcceptSelectionSplit	bundle/command-T/plugin/command-t.vim	/^function CommandTAcceptSelectionSplit()$/;"	f
+CommandTAcceptSelectionTab	bundle/command-T/plugin/command-t.vim	/^function CommandTAcceptSelectionTab()$/;"	f
+CommandTAcceptSelectionVSplit	bundle/command-T/plugin/command-t.vim	/^function CommandTAcceptSelectionVSplit()$/;"	f
+CommandTBackspace	bundle/command-T/plugin/command-t.vim	/^function CommandTBackspace()$/;"	f
+CommandTBuffer	bundle/command-T/plugin/command-t.vim	/^command CommandTBuffer call <SID>CommandTShowBufferFinder()$/;"	c
+CommandTCancel	bundle/command-T/plugin/command-t.vim	/^function CommandTCancel()$/;"	f
+CommandTClear	bundle/command-T/plugin/command-t.vim	/^function CommandTClear()$/;"	f
+CommandTCursorEnd	bundle/command-T/plugin/command-t.vim	/^function CommandTCursorEnd()$/;"	f
+CommandTCursorLeft	bundle/command-T/plugin/command-t.vim	/^function CommandTCursorLeft()$/;"	f
+CommandTCursorRight	bundle/command-T/plugin/command-t.vim	/^function CommandTCursorRight()$/;"	f
+CommandTCursorStart	bundle/command-T/plugin/command-t.vim	/^function CommandTCursorStart()$/;"	f
+CommandTDelete	bundle/command-T/plugin/command-t.vim	/^function CommandTDelete()$/;"	f
+CommandTFlush	bundle/command-T/plugin/command-t.vim	/^command CommandTFlush call <SID>CommandTFlush()$/;"	c
+CommandTFlush	bundle/command-T/plugin/command-t.vim	/^function s:CommandTFlush()$/;"	f
+CommandTHandleKey	bundle/command-T/plugin/command-t.vim	/^function CommandTHandleKey(arg)$/;"	f
+CommandTJump	bundle/command-T/plugin/command-t.vim	/^command CommandTJump call <SID>CommandTShowJumpFinder()$/;"	c
+CommandTMatch_initialize	bundle/command-T/ruby/command-t/match.c	/^VALUE CommandTMatch_initialize(int argc, VALUE *argv, VALUE self)$/;"	f
+CommandTMatch_matches	bundle/command-T/ruby/command-t/match.c	/^VALUE CommandTMatch_matches(VALUE self)$/;"	f
+CommandTMatch_to_s	bundle/command-T/ruby/command-t/match.c	/^VALUE CommandTMatch_to_s(VALUE self)$/;"	f
+CommandTMatcher_initialize	bundle/command-T/ruby/command-t/matcher.c	/^VALUE CommandTMatcher_initialize(int argc, VALUE *argv, VALUE self)$/;"	f
+CommandTMatcher_matches_for	bundle/command-T/ruby/command-t/matcher.c	/^VALUE CommandTMatcher_matches_for(VALUE self, VALUE abbrev)$/;"	f
+CommandTMatcher_sorted_matches_for	bundle/command-T/ruby/command-t/matcher.c	/^VALUE CommandTMatcher_sorted_matches_for(VALUE self, VALUE abbrev, VALUE options)$/;"	f
+CommandTRefresh	bundle/command-T/plugin/command-t.vim	/^function CommandTRefresh()$/;"	f
+CommandTRubyWarning	bundle/command-T/plugin/command-t.vim	/^function s:CommandTRubyWarning()$/;"	f
+CommandTSelectNext	bundle/command-T/plugin/command-t.vim	/^function CommandTSelectNext()$/;"	f
+CommandTSelectPrev	bundle/command-T/plugin/command-t.vim	/^function CommandTSelectPrev()$/;"	f
+CommandTShowBufferFinder	bundle/command-T/plugin/command-t.vim	/^function s:CommandTShowBufferFinder()$/;"	f
+CommandTShowFileFinder	bundle/command-T/plugin/command-t.vim	/^function s:CommandTShowFileFinder(arg)$/;"	f
+CommandTShowJumpFinder	bundle/command-T/plugin/command-t.vim	/^function s:CommandTShowJumpFinder()$/;"	f
+CommandTShowTagFinder	bundle/command-T/plugin/command-t.vim	/^function s:CommandTShowTagFinder()$/;"	f
+CommandTTag	bundle/command-T/plugin/command-t.vim	/^command CommandTTag call <SID>CommandTShowTagFinder()$/;"	c
+CommandTToggleFocus	bundle/command-T/plugin/command-t.vim	/^function CommandTToggleFocus()$/;"	f
+CommandT_option_from_hash	bundle/command-T/ruby/command-t/ext.c	/^VALUE CommandT_option_from_hash(const char *option, VALUE hash)$/;"	f
+Controller	bundle/command-T/ruby/command-t/controller.rb	/^  class Controller$/;"	c	class:CommandT
+Creator.BufNamePrefix	bundle/nerdtree/plugin/nerdtree/creator.vim	/^function! s:Creator.BufNamePrefix()$/;"	f
+Creator.CreateMirror	bundle/nerdtree/plugin/nerdtree/creator.vim	/^function! s:Creator.CreateMirror()$/;"	f
+Creator.CreatePrimary	bundle/nerdtree/plugin/nerdtree/creator.vim	/^function! s:Creator.CreatePrimary(name)$/;"	f
+Creator.CreateSecondary	bundle/nerdtree/plugin/nerdtree/creator.vim	/^function! s:Creator.CreateSecondary(dir)$/;"	f
+Creator.New	bundle/nerdtree/plugin/nerdtree/creator.vim	/^function! s:Creator.New()$/;"	f
+Creator.TogglePrimary	bundle/nerdtree/plugin/nerdtree/creator.vim	/^function! s:Creator.TogglePrimary(dir)$/;"	f
+Creator._bindMappings	bundle/nerdtree/plugin/nerdtree/creator.vim	/^function! s:Creator._bindMappings()$/;"	f
+Creator._broadcastInitEvent	bundle/nerdtree/plugin/nerdtree/creator.vim	/^function! s:Creator._broadcastInitEvent()$/;"	f
+Creator._createTreeWin	bundle/nerdtree/plugin/nerdtree/creator.vim	/^function! s:Creator._createTreeWin()$/;"	f
+Creator._nextBufferName	bundle/nerdtree/plugin/nerdtree/creator.vim	/^function! s:Creator._nextBufferName()$/;"	f
+Creator._nextBufferNumber	bundle/nerdtree/plugin/nerdtree/creator.vim	/^function! s:Creator._nextBufferNumber()$/;"	f
+Creator._pathForString	bundle/nerdtree/plugin/nerdtree/creator.vim	/^function! s:Creator._pathForString(str)$/;"	f
+Creator._setCommonBufOptions	bundle/nerdtree/plugin/nerdtree/creator.vim	/^function! s:Creator._setCommonBufOptions()$/;"	f
+Creator._setupStatusline	bundle/nerdtree/plugin/nerdtree/creator.vim	/^function! s:Creator._setupStatusline()$/;"	f
+Creator.createMirror	bundle/nerdtree/plugin/nerdtree/creator.vim	/^function! s:Creator.createMirror()$/;"	f
+Creator.createPrimary	bundle/nerdtree/plugin/nerdtree/creator.vim	/^function! s:Creator.createPrimary(name)$/;"	f
+Creator.createSecondary	bundle/nerdtree/plugin/nerdtree/creator.vim	/^function! s:Creator.createSecondary(dir)$/;"	f
+Creator.togglePrimary	bundle/nerdtree/plugin/nerdtree/creator.vim	/^function! s:Creator.togglePrimary(dir)$/;"	f
+FileFinder	bundle/command-T/ruby/command-t/finder/file_finder.rb	/^  class FileFinder < Finder$/;"	c	class:CommandT
+FileLimitExceeded	bundle/command-T/ruby/command-t/scanner/file_scanner.rb	/^    class FileLimitExceeded < ::RuntimeError; end$/;"	c	class:CommandT.FileScanner
+FileScanner	bundle/command-T/ruby/command-t/scanner/file_scanner.rb	/^  class FileScanner < Scanner$/;"	c	class:CommandT
+Findcomplete	autoload/pathogen.vim	/^function! s:Findcomplete(A,L,P) " {{{1$/;"	f
+Finder	bundle/command-T/ruby/command-t/finder.rb	/^  class Finder$/;"	c	class:CommandT
+Formatter	bundle/command-T/spec/vim_formatter.rb	/^    module Formatter$/;"	m	class:Spec.Runner
+GetDocLocations	bundle/ack/plugin/ack.vim	/^function! s:GetDocLocations()$/;"	f
+Helptags	autoload/pathogen.vim	/^command! -bar Helptags :call pathogen#helptags()$/;"	c
+Init_ext	bundle/command-T/ruby/command-t/ext.c	/^void Init_ext()$/;"	f
+JumpFinder	bundle/command-T/ruby/command-t/finder/jump_finder.rb	/^  class JumpFinder < Finder$/;"	c	class:CommandT
+JumpScanner	bundle/command-T/ruby/command-t/scanner/jump_scanner.rb	/^  class JumpScanner < Scanner$/;"	c	class:CommandT
+KeyMap.Add	bundle/nerdtree/plugin/nerdtree/key_map.vim	/^function! s:KeyMap.Add(keymap)$/;"	f
+KeyMap.All	bundle/nerdtree/plugin/nerdtree/key_map.vim	/^function! s:KeyMap.All()$/;"	f
+KeyMap.BindAll	bundle/nerdtree/plugin/nerdtree/key_map.vim	/^function! s:KeyMap.BindAll()$/;"	f
+KeyMap.Create	bundle/nerdtree/plugin/nerdtree/key_map.vim	/^function! s:KeyMap.Create(options)$/;"	f
+KeyMap.FindFor	bundle/nerdtree/plugin/nerdtree/key_map.vim	/^function! s:KeyMap.FindFor(key, scope)$/;"	f
+KeyMap.Invoke	bundle/nerdtree/plugin/nerdtree/key_map.vim	/^function! s:KeyMap.Invoke(key)$/;"	f
+KeyMap.Remove	bundle/nerdtree/plugin/nerdtree/key_map.vim	/^function! s:KeyMap.Remove(key, scope)$/;"	f
+KeyMap.bind	bundle/nerdtree/plugin/nerdtree/key_map.vim	/^function! s:KeyMap.bind()$/;"	f
+KeyMap.invoke	bundle/nerdtree/plugin/nerdtree/key_map.vim	/^function! s:KeyMap.invoke(...)$/;"	f
+LAck	bundle/ack/plugin/ack.vim	/^command! -bang -nargs=* -complete=file LAck call s:Ack('lgrep<bang>', <q-args>)$/;"	c
+LAckAdd	bundle/ack/plugin/ack.vim	/^command! -bang -nargs=* -complete=file LAckAdd call s:Ack('lgrepadd<bang>', <q-args>)$/;"	c
+LAckHelp	bundle/ack/plugin/ack.vim	/^command! -bang -nargs=* -complete=help LAckHelp call s:AckHelp('lgrep<bang>',<q-args>)$/;"	c
+MatchWindow	bundle/command-T/ruby/command-t/match_window.rb	/^  class MatchWindow$/;"	c	class:CommandT
+MenuController.New	bundle/nerdtree/plugin/nerdtree/menu_controller.vim	/^function! s:MenuController.New(menuItems)$/;"	f
+MenuController._allIndexesFor	bundle/nerdtree/plugin/nerdtree/menu_controller.vim	/^function! s:MenuController._allIndexesFor(shortcut)$/;"	f
+MenuController._current	bundle/nerdtree/plugin/nerdtree/menu_controller.vim	/^function! s:MenuController._current()$/;"	f
+MenuController._cursorDown	bundle/nerdtree/plugin/nerdtree/menu_controller.vim	/^function! s:MenuController._cursorDown()$/;"	f
+MenuController._cursorUp	bundle/nerdtree/plugin/nerdtree/menu_controller.vim	/^function! s:MenuController._cursorUp()$/;"	f
+MenuController._echoPrompt	bundle/nerdtree/plugin/nerdtree/menu_controller.vim	/^function! s:MenuController._echoPrompt()$/;"	f
+MenuController._handleKeypress	bundle/nerdtree/plugin/nerdtree/menu_controller.vim	/^function! s:MenuController._handleKeypress(key)$/;"	f
+MenuController._nextIndexFor	bundle/nerdtree/plugin/nerdtree/menu_controller.vim	/^function! s:MenuController._nextIndexFor(shortcut)$/;"	f
+MenuController._restoreOptions	bundle/nerdtree/plugin/nerdtree/menu_controller.vim	/^function! s:MenuController._restoreOptions()$/;"	f
+MenuController._saveOptions	bundle/nerdtree/plugin/nerdtree/menu_controller.vim	/^function! s:MenuController._saveOptions()$/;"	f
+MenuController._setCmdheight	bundle/nerdtree/plugin/nerdtree/menu_controller.vim	/^function! s:MenuController._setCmdheight()$/;"	f
+MenuController.showMenu	bundle/nerdtree/plugin/nerdtree/menu_controller.vim	/^function! s:MenuController.showMenu()$/;"	f
+MenuItem.All	bundle/nerdtree/plugin/nerdtree/menu_item.vim	/^function! s:MenuItem.All()$/;"	f
+MenuItem.AllEnabled	bundle/nerdtree/plugin/nerdtree/menu_item.vim	/^function! s:MenuItem.AllEnabled()$/;"	f
+MenuItem.Create	bundle/nerdtree/plugin/nerdtree/menu_item.vim	/^function! s:MenuItem.Create(options)$/;"	f
+MenuItem.CreateSeparator	bundle/nerdtree/plugin/nerdtree/menu_item.vim	/^function! s:MenuItem.CreateSeparator(options)$/;"	f
+MenuItem.CreateSubmenu	bundle/nerdtree/plugin/nerdtree/menu_item.vim	/^function! s:MenuItem.CreateSubmenu(options)$/;"	f
+MenuItem.enabled	bundle/nerdtree/plugin/nerdtree/menu_item.vim	/^function! s:MenuItem.enabled()$/;"	f
+MenuItem.execute	bundle/nerdtree/plugin/nerdtree/menu_item.vim	/^function! s:MenuItem.execute()$/;"	f
+MenuItem.isSeparator	bundle/nerdtree/plugin/nerdtree/menu_item.vim	/^function! s:MenuItem.isSeparator()$/;"	f
+MenuItem.isSubmenu	bundle/nerdtree/plugin/nerdtree/menu_item.vim	/^function! s:MenuItem.isSubmenu()$/;"	f
+NERDTree	bundle/nerdtree/plugin/NERD_tree.vim	/^augroup NERDTree$/;"	a
+NERDTree	bundle/nerdtree/plugin/NERD_tree.vim	/^command! -n=? -complete=dir -bar NERDTree :call g:NERDTreeCreator.CreatePrimary('<args>')$/;"	c
+NERDTreeAddKeyMap	bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeAddKeyMap(options)$/;"	f
+NERDTreeAddMenuItem	bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeAddMenuItem(options)$/;"	f
+NERDTreeAddMenuSeparator	bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeAddMenuSeparator(...)$/;"	f
+NERDTreeAddNode	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeAddNode()$/;"	f
+NERDTreeAddSubmenu	bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeAddSubmenu(options)$/;"	f
+NERDTreeCWD	bundle/nerdtree/plugin/NERD_tree.vim	/^command! -n=0 -bar NERDTreeCWD call NERDTreeCWD()$/;"	c
+NERDTreeCWD	bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeCWD()$/;"	f
+NERDTreeClose	bundle/nerdtree/plugin/NERD_tree.vim	/^command! -n=0 -bar NERDTreeClose :call nerdtree#closeTreeIfOpen()$/;"	c
+NERDTreeCopyNode	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeCopyNode()$/;"	f
+NERDTreeDeleteNode	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeDeleteNode()$/;"	f
+NERDTreeExecFile	bundle/nerdtree/nerdtree_plugin/exec_menuitem.vim	/^function! NERDTreeExecFile()$/;"	f
+NERDTreeExecFileActive	bundle/nerdtree/nerdtree_plugin/exec_menuitem.vim	/^function! NERDTreeExecFileActive()$/;"	f
+NERDTreeExecuteFile	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeExecuteFile()$/;"	f
+NERDTreeFind	bundle/nerdtree/plugin/NERD_tree.vim	/^command! -n=0 -bar NERDTreeFind call nerdtree#findAndRevealPath()$/;"	c
+NERDTreeFocus	bundle/nerdtree/plugin/NERD_tree.vim	/^command! -n=0 -bar NERDTreeFocus call NERDTreeFocus()$/;"	c
+NERDTreeFocus	bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeFocus()$/;"	f
+NERDTreeFromBookmark	bundle/nerdtree/plugin/NERD_tree.vim	/^command! -n=1 -complete=customlist,nerdtree#completeBookmarks -bar NERDTreeFromBookmark call g:NERDTreeCreator.CreatePrimary('<args>')$/;"	c
+NERDTreeHijackNetrw	bundle/nerdtree/plugin/NERD_tree.vim	/^    augroup NERDTreeHijackNetrw$/;"	a
+NERDTreeMirror	bundle/nerdtree/plugin/NERD_tree.vim	/^command! -n=0 -bar NERDTreeMirror call g:NERDTreeCreator.CreateMirror()$/;"	c
+NERDTreeMoveNode	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeMoveNode()$/;"	f
+NERDTreeQuickLook	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeQuickLook()$/;"	f
+NERDTreeRender	bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeRender()$/;"	f
+NERDTreeRevealInFinder	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeRevealInFinder()$/;"	f
+NERDTreeToggle	bundle/nerdtree/plugin/NERD_tree.vim	/^command! -n=? -complete=dir -bar NERDTreeToggle :call g:NERDTreeCreator.TogglePrimary('<args>')$/;"	c
+Opener.New	bundle/nerdtree/plugin/nerdtree/opener.vim	/^function! s:Opener.New(path, opts)$/;"	f
+Opener._checkToCloseTree	bundle/nerdtree/plugin/nerdtree/opener.vim	/^function! s:Opener._checkToCloseTree(newtab)$/;"	f
+Opener._gotoTargetWin	bundle/nerdtree/plugin/nerdtree/opener.vim	/^function! s:Opener._gotoTargetWin()$/;"	f
+Opener._newSplit	bundle/nerdtree/plugin/nerdtree/opener.vim	/^function! s:Opener._newSplit()$/;"	f
+Opener._newVSplit	bundle/nerdtree/plugin/nerdtree/opener.vim	/^function! s:Opener._newVSplit()$/;"	f
+Opener._openDirectory	bundle/nerdtree/plugin/nerdtree/opener.vim	/^function! s:Opener._openDirectory(node)$/;"	f
+Opener._openFile	bundle/nerdtree/plugin/nerdtree/opener.vim	/^function! s:Opener._openFile()$/;"	f
+Opener._previousWindow	bundle/nerdtree/plugin/nerdtree/opener.vim	/^function! s:Opener._previousWindow()$/;"	f
+Opener._restoreCursorPos	bundle/nerdtree/plugin/nerdtree/opener.vim	/^function! s:Opener._restoreCursorPos()$/;"	f
+Opener._reuseWindow	bundle/nerdtree/plugin/nerdtree/opener.vim	/^function! s:Opener._reuseWindow()$/;"	f
+Opener._saveCursorPos	bundle/nerdtree/plugin/nerdtree/opener.vim	/^function! s:Opener._saveCursorPos()$/;"	f
+Opener.open	bundle/nerdtree/plugin/nerdtree/opener.vim	/^function! s:Opener.open(target)$/;"	f
+Path.AbsolutePathFor	bundle/nerdtree/plugin/nerdtree/path.vim	/^function! s:Path.AbsolutePathFor(str)$/;"	f
+Path.CopyingSupported	bundle/nerdtree/plugin/nerdtree/path.vim	/^function! s:Path.CopyingSupported()$/;"	f
+Path.Create	bundle/nerdtree/plugin/nerdtree/path.vim	/^function! s:Path.Create(fullpath)$/;"	f
+Path.JoinPathStrings	bundle/nerdtree/plugin/nerdtree/path.vim	/^function! s:Path.JoinPathStrings(...)$/;"	f
+Path.New	bundle/nerdtree/plugin/nerdtree/path.vim	/^function! s:Path.New(path)$/;"	f
+Path.Resolve	bundle/nerdtree/plugin/nerdtree/path.vim	/^function! s:Path.Resolve(path)$/;"	f
+Path.Slash	bundle/nerdtree/plugin/nerdtree/path.vim	/^function! s:Path.Slash()$/;"	f
+Path.WinToUnixPath	bundle/nerdtree/plugin/nerdtree/path.vim	/^function! s:Path.WinToUnixPath(pathstr)$/;"	f
+Path._ignorePatternMatches	bundle/nerdtree/plugin/nerdtree/path.vim	/^function! s:Path._ignorePatternMatches(pattern)$/;"	f
+Path._str	bundle/nerdtree/plugin/nerdtree/path.vim	/^function! s:Path._str()$/;"	f
+Path._strForCd	bundle/nerdtree/plugin/nerdtree/path.vim	/^function! s:Path._strForCd()$/;"	f
+Path._strForEdit	bundle/nerdtree/plugin/nerdtree/path.vim	/^function! s:Path._strForEdit()$/;"	f
+Path._strForGlob	bundle/nerdtree/plugin/nerdtree/path.vim	/^function! s:Path._strForGlob()$/;"	f
+Path._strForUI	bundle/nerdtree/plugin/nerdtree/path.vim	/^function! s:Path._strForUI()$/;"	f
+Path.bookmarkNames	bundle/nerdtree/plugin/nerdtree/path.vim	/^function! s:Path.bookmarkNames()$/;"	f
+Path.cacheDisplayString	bundle/nerdtree/plugin/nerdtree/path.vim	/^function! s:Path.cacheDisplayString()$/;"	f
+Path.changeToDir	bundle/nerdtree/plugin/nerdtree/path.vim	/^function! s:Path.changeToDir()$/;"	f
+Path.compareTo	bundle/nerdtree/plugin/nerdtree/path.vim	/^function! s:Path.compareTo(path)$/;"	f
+Path.copy	bundle/nerdtree/plugin/nerdtree/path.vim	/^function! s:Path.copy(dest)$/;"	f
+Path.copyingWillOverwrite	bundle/nerdtree/plugin/nerdtree/path.vim	/^function! s:Path.copyingWillOverwrite(dest)$/;"	f
+Path.delete	bundle/nerdtree/plugin/nerdtree/path.vim	/^function! s:Path.delete()$/;"	f
+Path.displayString	bundle/nerdtree/plugin/nerdtree/path.vim	/^function! s:Path.displayString()$/;"	f
+Path.edit	bundle/nerdtree/plugin/nerdtree/path.vim	/^function! s:Path.edit()$/;"	f
+Path.equals	bundle/nerdtree/plugin/nerdtree/path.vim	/^function! s:Path.equals(path)$/;"	f
+Path.exists	bundle/nerdtree/plugin/nerdtree/path.vim	/^function! s:Path.exists()$/;"	f
+Path.extractDriveLetter	bundle/nerdtree/plugin/nerdtree/path.vim	/^function! s:Path.extractDriveLetter(fullpath)$/;"	f
+Path.getDir	bundle/nerdtree/plugin/nerdtree/path.vim	/^function! s:Path.getDir()$/;"	f
+Path.getLastPathComponent	bundle/nerdtree/plugin/nerdtree/path.vim	/^function! s:Path.getLastPathComponent(dirSlash)$/;"	f
+Path.getParent	bundle/nerdtree/plugin/nerdtree/path.vim	/^function! s:Path.getParent()$/;"	f
+Path.getSortOrderIndex	bundle/nerdtree/plugin/nerdtree/path.vim	/^function! s:Path.getSortOrderIndex()$/;"	f
+Path.ignore	bundle/nerdtree/plugin/nerdtree/path.vim	/^function! s:Path.ignore()$/;"	f
+Path.isUnder	bundle/nerdtree/plugin/nerdtree/path.vim	/^function! s:Path.isUnder(path)$/;"	f
+Path.isUnixHiddenFile	bundle/nerdtree/plugin/nerdtree/path.vim	/^function! s:Path.isUnixHiddenFile()$/;"	f
+Path.isUnixHiddenPath	bundle/nerdtree/plugin/nerdtree/path.vim	/^function! s:Path.isUnixHiddenPath()$/;"	f
+Path.readInfoFromDisk	bundle/nerdtree/plugin/nerdtree/path.vim	/^function! s:Path.readInfoFromDisk(fullpath)$/;"	f
+Path.refresh	bundle/nerdtree/plugin/nerdtree/path.vim	/^function! s:Path.refresh()$/;"	f
+Path.rename	bundle/nerdtree/plugin/nerdtree/path.vim	/^function! s:Path.rename(newPath)$/;"	f
+Path.str	bundle/nerdtree/plugin/nerdtree/path.vim	/^function! s:Path.str(...)$/;"	f
+Path.strTrunk	bundle/nerdtree/plugin/nerdtree/path.vim	/^function! s:Path.strTrunk()$/;"	f
+Path.tabnr	bundle/nerdtree/plugin/nerdtree/path.vim	/^function! s:Path.tabnr()$/;"	f
+PathUtilities	bundle/command-T/ruby/command-t/vim/path_utilities.rb	/^    module PathUtilities$/;"	m	class:CommandT.VIM
+Prompt	bundle/command-T/ruby/command-t/prompt.rb	/^  class Prompt$/;"	c	class:CommandT
+RARRAY_LEN	bundle/command-T/ruby/command-t/ruby_compat.h	43;"	d
+RARRAY_PTR	bundle/command-T/ruby/command-t/ruby_compat.h	38;"	d
+RFLOAT_VALUE	bundle/command-T/ruby/command-t/ruby_compat.h	48;"	d
+RSTRING_LEN	bundle/command-T/ruby/command-t/ruby_compat.h	33;"	d
+RSTRING_PTR	bundle/command-T/ruby/command-t/ruby_compat.h	28;"	d
+Runner	bundle/command-T/spec/vim_formatter.rb	/^  module Runner$/;"	m	class:Spec
+SID	bundle/nerdtree/autoload/nerdtree.vim	/^function s:SID()$/;"	f
+Scanner	bundle/command-T/ruby/command-t/scanner.rb	/^  class Scanner; end$/;"	c	class:CommandT
+Screen	bundle/command-T/ruby/command-t/vim/screen.rb	/^    module Screen$/;"	m	class:CommandT.VIM
+Settings	bundle/command-T/ruby/command-t/settings.rb	/^  class Settings$/;"	c	class:CommandT
+Spec	bundle/command-T/spec/vim_formatter.rb	/^module Spec$/;"	m
+Stub	bundle/command-T/ruby/command-t/stub.rb	/^  class Stub$/;"	c	class:CommandT
+TagFinder	bundle/command-T/ruby/command-t/finder/tag_finder.rb	/^  class TagFinder < Finder$/;"	c	class:CommandT
+TagScanner	bundle/command-T/ruby/command-t/scanner/tag_scanner.rb	/^  class TagScanner < Scanner$/;"	c	class:CommandT
+TreeDirNode.AbsoluteTreeRoot	bundle/nerdtree/plugin/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.AbsoluteTreeRoot()$/;"	f
+TreeDirNode.GetSelected	bundle/nerdtree/plugin/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.GetSelected()$/;"	f
+TreeDirNode.New	bundle/nerdtree/plugin/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.New(path)$/;"	f
+TreeDirNode._initChildren	bundle/nerdtree/plugin/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode._initChildren(silent)$/;"	f
+TreeDirNode._openInNewTab	bundle/nerdtree/plugin/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode._openInNewTab()$/;"	f
+TreeDirNode._openRecursively2	bundle/nerdtree/plugin/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode._openRecursively2(forceOpen)$/;"	f
+TreeDirNode.activate	bundle/nerdtree/plugin/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.activate(...)$/;"	f
+TreeDirNode.addChild	bundle/nerdtree/plugin/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.addChild(treenode, inOrder)$/;"	f
+TreeDirNode.close	bundle/nerdtree/plugin/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.close()$/;"	f
+TreeDirNode.closeChildren	bundle/nerdtree/plugin/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.closeChildren()$/;"	f
+TreeDirNode.createChild	bundle/nerdtree/plugin/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.createChild(path, inOrder)$/;"	f
+TreeDirNode.findNode	bundle/nerdtree/plugin/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.findNode(path)$/;"	f
+TreeDirNode.getChild	bundle/nerdtree/plugin/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.getChild(path)$/;"	f
+TreeDirNode.getChildByIndex	bundle/nerdtree/plugin/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.getChildByIndex(indx, visible)$/;"	f
+TreeDirNode.getChildCount	bundle/nerdtree/plugin/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.getChildCount()$/;"	f
+TreeDirNode.getChildIndex	bundle/nerdtree/plugin/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.getChildIndex(path)$/;"	f
+TreeDirNode.getVisibleChildCount	bundle/nerdtree/plugin/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.getVisibleChildCount()$/;"	f
+TreeDirNode.getVisibleChildren	bundle/nerdtree/plugin/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.getVisibleChildren()$/;"	f
+TreeDirNode.hasVisibleChildren	bundle/nerdtree/plugin/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.hasVisibleChildren()$/;"	f
+TreeDirNode.open	bundle/nerdtree/plugin/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.open(...)$/;"	f
+TreeDirNode.openAlong	bundle/nerdtree/plugin/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.openAlong(...)$/;"	f
+TreeDirNode.openExplorer	bundle/nerdtree/plugin/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.openExplorer()$/;"	f
+TreeDirNode.openInNewTab	bundle/nerdtree/plugin/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.openInNewTab(options)$/;"	f
+TreeDirNode.openRecursively	bundle/nerdtree/plugin/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.openRecursively()$/;"	f
+TreeDirNode.refresh	bundle/nerdtree/plugin/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.refresh()$/;"	f
+TreeDirNode.removeChild	bundle/nerdtree/plugin/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.removeChild(treenode)$/;"	f
+TreeDirNode.reveal	bundle/nerdtree/plugin/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.reveal(path)$/;"	f
+TreeDirNode.sortChildren	bundle/nerdtree/plugin/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.sortChildren()$/;"	f
+TreeDirNode.toggleOpen	bundle/nerdtree/plugin/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.toggleOpen(...)$/;"	f
+TreeDirNode.transplantChild	bundle/nerdtree/plugin/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.transplantChild(newNode)$/;"	f
+TreeFileNode.GetRootForTab	bundle/nerdtree/plugin/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.GetRootForTab()$/;"	f
+TreeFileNode.GetRootLineNum	bundle/nerdtree/plugin/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.GetRootLineNum()$/;"	f
+TreeFileNode.GetSelected	bundle/nerdtree/plugin/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.GetSelected()$/;"	f
+TreeFileNode.New	bundle/nerdtree/plugin/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.New(path)$/;"	f
+TreeFileNode._renderToString	bundle/nerdtree/plugin/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode._renderToString(depth, drawText, vertMap, isLastChild)$/;"	f
+TreeFileNode.activate	bundle/nerdtree/plugin/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.activate(...)$/;"	f
+TreeFileNode.bookmark	bundle/nerdtree/plugin/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.bookmark(name)$/;"	f
+TreeFileNode.cacheParent	bundle/nerdtree/plugin/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.cacheParent()$/;"	f
+TreeFileNode.clearBookmarks	bundle/nerdtree/plugin/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.clearBookmarks()$/;"	f
+TreeFileNode.copy	bundle/nerdtree/plugin/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.copy(dest)$/;"	f
+TreeFileNode.delete	bundle/nerdtree/plugin/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.delete()$/;"	f
+TreeFileNode.displayString	bundle/nerdtree/plugin/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.displayString()$/;"	f
+TreeFileNode.equals	bundle/nerdtree/plugin/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.equals(treenode)$/;"	f
+TreeFileNode.findNode	bundle/nerdtree/plugin/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.findNode(path)$/;"	f
+TreeFileNode.findOpenDirSiblingWithVisibleChildren	bundle/nerdtree/plugin/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.findOpenDirSiblingWithVisibleChildren(direction)$/;"	f
+TreeFileNode.findSibling	bundle/nerdtree/plugin/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.findSibling(direction)$/;"	f
+TreeFileNode.getLineNum	bundle/nerdtree/plugin/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.getLineNum()$/;"	f
+TreeFileNode.isRoot	bundle/nerdtree/plugin/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.isRoot()$/;"	f
+TreeFileNode.isVisible	bundle/nerdtree/plugin/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.isVisible()$/;"	f
+TreeFileNode.makeRoot	bundle/nerdtree/plugin/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.makeRoot()$/;"	f
+TreeFileNode.open	bundle/nerdtree/plugin/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.open(...)$/;"	f
+TreeFileNode.openInNewTab	bundle/nerdtree/plugin/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.openInNewTab(options)$/;"	f
+TreeFileNode.openSplit	bundle/nerdtree/plugin/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.openSplit()$/;"	f
+TreeFileNode.openVSplit	bundle/nerdtree/plugin/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.openVSplit()$/;"	f
+TreeFileNode.putCursorHere	bundle/nerdtree/plugin/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.putCursorHere(isJump, recurseUpward)$/;"	f
+TreeFileNode.refresh	bundle/nerdtree/plugin/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.refresh()$/;"	f
+TreeFileNode.rename	bundle/nerdtree/plugin/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.rename(newName)$/;"	f
+TreeFileNode.renderToString	bundle/nerdtree/plugin/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.renderToString()$/;"	f
+VIM	bundle/command-T/ruby/command-t/vim.rb	/^  module VIM$/;"	m	class:CommandT
+VIM	bundle/command-T/ruby/command-t/vim/path_utilities.rb	/^  module VIM$/;"	m	class:CommandT
+VIM	bundle/command-T/ruby/command-t/vim/screen.rb	/^  module VIM$/;"	m	class:CommandT
+VIM	bundle/command-T/ruby/command-t/vim/window.rb	/^  module VIM$/;"	m	class:CommandT
+VIM	bundle/command-T/spec/command-t/controller_spec.rb	/^module VIM; end$/;"	m
+VIM	bundle/command-T/spec/command-t/finder/buffer_finder_spec.rb	/^module VIM; end$/;"	m
+VIM	bundle/command-T/spec/command-t/finder/file_finder_spec.rb	/^module VIM; end$/;"	m
+VIM	bundle/command-T/spec/command-t/scanner/buffer_scanner_spec.rb	/^module VIM$/;"	m
+VIM	bundle/command-T/spec/command-t/scanner/file_scanner_spec.rb	/^module VIM; end$/;"	m
+Ve	autoload/pathogen.vim	/^command! -bar -bang -range=1 -nargs=1 -complete=customlist,s:Findcomplete Ve       :execute s:find(<count>,'edit<bang>',<q-args>,0)$/;"	c
+Vedit	autoload/pathogen.vim	/^command! -bar -bang -range=1 -nargs=1 -complete=customlist,s:Findcomplete Vedit    :execute s:find(<count>,'edit<bang>',<q-args>,0)$/;"	c
+VimFormatter	bundle/command-T/spec/vim_formatter.rb	/^      class VimFormatter < BaseTextFormatter$/;"	c	class:Spec.Runner.Formatter
+Vopen	autoload/pathogen.vim	/^command! -bar -bang -range=1 -nargs=1 -complete=customlist,s:Findcomplete Vopen    :execute s:find(<count>,'edit<bang>',<q-args>,1)$/;"	c
+Vpedit	autoload/pathogen.vim	/^command! -bar -bang -range=1 -nargs=1 -complete=customlist,s:Findcomplete Vpedit   :execute s:find(<count>,'pedit',<q-args>,<bang>1)$/;"	c
+Vread	autoload/pathogen.vim	/^command! -bar -bang -range=1 -nargs=1 -complete=customlist,s:Findcomplete Vread    :execute s:find(<count>,'read',<q-args>,<bang>1)$/;"	c
+Vsplit	autoload/pathogen.vim	/^command! -bar -bang -range=1 -nargs=1 -complete=customlist,s:Findcomplete Vsplit   :execute s:find(<count>,'split',<q-args>,<bang>1)$/;"	c
+Vtabedit	autoload/pathogen.vim	/^command! -bar -bang -range=1 -nargs=1 -complete=customlist,s:Findcomplete Vtabedit :execute s:find(<count>,'tabedit',<q-args>,<bang>1)$/;"	c
+Vvsplit	autoload/pathogen.vim	/^command! -bar -bang -range=1 -nargs=1 -complete=customlist,s:Findcomplete Vvsplit  :execute s:find(<count>,'vsplit',<q-args>,<bang>1)$/;"	c
+Window	bundle/command-T/ruby/command-t/vim/window.rb	/^    class Window$/;"	c	class:CommandT.VIM
+abbrev_len	bundle/command-T/ruby/command-t/match.c	/^    long    abbrev_len;             \/\/ length of same$/;"	m	struct:__anon1	file:
+abbrev_p	bundle/command-T/ruby/command-t/match.c	/^    char    *abbrev_p;              \/\/ pointer to search string (abbreviation)$/;"	m	struct:__anon1	file:
+abbrev_segments	bundle/command-T/ruby/command-t/prompt.rb	/^    def abbrev_segments$/;"	f	class:CommandT.Prompt
+accept_selection	bundle/command-T/ruby/command-t/controller.rb	/^    def accept_selection options = {}$/;"	f	class:CommandT.Controller
+activateAll	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:activateAll()$/;"	f
+activateBookmark	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:activateBookmark(bm)$/;"	f
+activateDirNode	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:activateDirNode(node)$/;"	f
+activateFileNode	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:activateFileNode(node)$/;"	f
+add!	bundle/command-T/ruby/command-t/match_window.rb	/^    def add! char$/;"	f	class:CommandT.MatchWindow
+add!	bundle/command-T/ruby/command-t/prompt.rb	/^    def add! char$/;"	f	class:CommandT.Prompt
+add_paths_for_directory	bundle/command-T/ruby/command-t/scanner/file_scanner.rb	/^    def add_paths_for_directory dir, accumulator$/;"	f	class:CommandT.FileScanner
+always_show_dot_files	bundle/command-T/ruby/command-t/match.c	/^    int     always_show_dot_files;  \/\/ boolean$/;"	m	struct:__anon1	file:
+backspace	bundle/command-T/ruby/command-t/controller.rb	/^    def backspace$/;"	f	class:CommandT.Controller
+backspace!	bundle/command-T/ruby/command-t/match_window.rb	/^    def backspace!$/;"	f	class:CommandT.MatchWindow
+backspace!	bundle/command-T/ruby/command-t/prompt.rb	/^    def backspace!$/;"	f	class:CommandT.Prompt
+buffer	bundle/command-T/spec/command-t/scanner/buffer_scanner_spec.rb	/^  def buffer name$/;"	f
+buffer_finder	bundle/command-T/ruby/command-t/controller.rb	/^    def buffer_finder$/;"	f	class:CommandT.Controller.ensure_appropriate_window_selection
+build_quietly	bundle/command-T/multi-spec.sh	/^function build_quietly()$/;"	f
+cCommandTMatch	bundle/command-T/ruby/command-t/ext.c	/^VALUE cCommandTMatch    = 0; \/\/ class CommandT::Match$/;"	v
+cCommandTMatcher	bundle/command-T/ruby/command-t/ext.c	/^VALUE cCommandTMatcher  = 0; \/\/ class CommandT::Matcher$/;"	v
+cancel	bundle/command-T/ruby/command-t/controller.rb	/^    def cancel$/;"	f	class:CommandT.Controller
+capture	bundle/command-T/ruby/command-t/vim.rb	/^    def self.capture cmd$/;"	F	class:CommandT.VIM
+cfiles	bundle/command-T/Makefile	/^cfiles      := $(shell find ruby -name '*.c')$/;"	m
+chCwd	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:chCwd(node)$/;"	f
+chRoot	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:chRoot(node)$/;"	f
+cheaders	bundle/command-T/Makefile	/^cheaders    := $(shell find ruby -name '*.h')$/;"	m
+check_ruby_1_9_2	bundle/command-T/spec/command-t/controller_spec.rb	/^  def check_ruby_1_9_2$/;"	f
+clear	bundle/command-T/ruby/command-t/controller.rb	/^    def clear$/;"	f	class:CommandT.Controller
+clear	bundle/command-T/ruby/command-t/match_window.rb	/^    def clear$/;"	f	class:CommandT.MatchWindow.match_with_syntax_highlight
+clear!	bundle/command-T/ruby/command-t/prompt.rb	/^    def clear!$/;"	f	class:CommandT.Prompt
+close	bundle/command-T/ruby/command-t/match_window.rb	/^    def close$/;"	f	class:CommandT.MatchWindow
+closeChildren	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:closeChildren(node)$/;"	f
+closeCurrentDir	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:closeCurrentDir(node)$/;"	f
+closeTreeWindow	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:closeTreeWindow()$/;"	f
+comp_alpha	bundle/command-T/ruby/command-t/matcher.c	/^int comp_alpha(const void *a, const void *b)$/;"	f
+comp_score	bundle/command-T/ruby/command-t/matcher.c	/^int comp_score(const void *a, const void *b)$/;"	f
+cursor_end	bundle/command-T/ruby/command-t/controller.rb	/^    def cursor_end$/;"	f	class:CommandT.Controller
+cursor_end	bundle/command-T/ruby/command-t/prompt.rb	/^    def cursor_end$/;"	f	class:CommandT.Prompt
+cursor_left	bundle/command-T/ruby/command-t/controller.rb	/^    def cursor_left$/;"	f	class:CommandT.Controller
+cursor_left	bundle/command-T/ruby/command-t/prompt.rb	/^    def cursor_left$/;"	f	class:CommandT.Prompt
+cursor_right	bundle/command-T/ruby/command-t/controller.rb	/^    def cursor_right$/;"	f	class:CommandT.Controller
+cursor_right	bundle/command-T/ruby/command-t/prompt.rb	/^    def cursor_right$/;"	f	class:CommandT.Prompt
+cursor_start	bundle/command-T/ruby/command-t/controller.rb	/^    def cursor_start$/;"	f	class:CommandT.Controller
+cursor_start	bundle/command-T/ruby/command-t/prompt.rb	/^    def cursor_start$/;"	f	class:CommandT.Prompt
+default_open_command	bundle/command-T/ruby/command-t/controller.rb	/^    def default_open_command$/;"	f	class:CommandT.Controller
+delete	bundle/command-T/ruby/command-t/controller.rb	/^    def delete$/;"	f	class:CommandT.Controller
+delete!	bundle/command-T/ruby/command-t/prompt.rb	/^    def delete!$/;"	f	class:CommandT.Prompt
+deleteBookmark	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:deleteBookmark(bm)$/;"	f
+depends	bundle/command-T/Makefile	/^depends     := $(shell find ruby -name depend)$/;"	m
+displayHelp	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:displayHelp()$/;"	f
+dispose	bundle/command-T/ruby/command-t/prompt.rb	/^    def dispose$/;"	f	class:CommandT.Prompt
+dot_file	bundle/command-T/ruby/command-t/match.c	/^    int     dot_file;               \/\/ boolean: true if str is a dot-file$/;"	m	struct:__anon1	file:
+dump_failure	bundle/command-T/spec/vim_formatter.rb	/^        def dump_failure counter, failure$/;"	f	class:Spec.Runner.Formatter.VimFormatter
+dump_pending	bundle/command-T/spec/vim_formatter.rb	/^        def dump_pending; end$/;"	f	class:Spec.Runner.Formatter.VimFormatter
+dump_summary	bundle/command-T/spec/vim_formatter.rb	/^        def dump_summary duration, example_count, failure_count, pending_count$/;"	f	class:Spec.Runner.Formatter.VimFormatter
+echo	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! s:echo(msg)$/;"	f
+echoWarning	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! s:echoWarning(msg)$/;"	f
+ensure_appropriate_window_selection	bundle/command-T/ruby/command-t/controller.rb	/^    def ensure_appropriate_window_selection$/;"	f	class:CommandT.Controller
+ensure_cache_under_limit	bundle/command-T/ruby/command-t/scanner/file_scanner.rb	/^    def ensure_cache_under_limit$/;"	f	class:CommandT.FileScanner
+escape_for_single_quotes	bundle/command-T/ruby/command-t/vim.rb	/^    def self.escape_for_single_quotes str$/;"	F	class:CommandT.VIM
+exists	bundle/command-T/ruby/command-t/vim.rb	/^    def self.exists? str$/;"	F	class:CommandT.VIM
+file_finder	bundle/command-T/ruby/command-t/controller.rb	/^    def file_finder$/;"	f	class:CommandT.Controller.ensure_appropriate_window_selection
+find	autoload/pathogen.vim	/^function! s:find(count,cmd,file,lcd) " {{{1$/;"	f
+find	bundle/command-T/ruby/command-t/match_window.rb	/^    def find char$/;"	f	class:CommandT.MatchWindow
+flush	bundle/command-T/ruby/command-t/controller.rb	/^    def flush$/;"	f	class:CommandT.Controller
+flush	bundle/command-T/ruby/command-t/finder/file_finder.rb	/^    def flush$/;"	f	class:CommandT.FileFinder
+flush	bundle/command-T/ruby/command-t/scanner/file_scanner.rb	/^    def flush$/;"	f	class:CommandT.FileScanner
+focus	bundle/command-T/ruby/command-t/match_window.rb	/^    def focus$/;"	f	class:CommandT.MatchWindow
+focus	bundle/command-T/ruby/command-t/prompt.rb	/^    def focus$/;"	f	class:CommandT.Prompt
+g:NERDTreeAutoDeleteBuffer	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^    let g:NERDTreeAutoDeleteBuffer = 0$/;"	v
+g:NERDTreeBookmark	bundle/nerdtree/plugin/nerdtree/bookmark.vim	/^let g:NERDTreeBookmark = s:Bookmark$/;"	v
+g:NERDTreeCreator	bundle/nerdtree/plugin/nerdtree/creator.vim	/^let g:NERDTreeCreator = s:Creator$/;"	v
+g:NERDTreeDirNode	bundle/nerdtree/plugin/nerdtree/tree_dir_node.vim	/^let g:NERDTreeDirNode = s:TreeDirNode$/;"	v
+g:NERDTreeFileNode	bundle/nerdtree/plugin/nerdtree/tree_file_node.vim	/^let g:NERDTreeFileNode = s:TreeFileNode$/;"	v
+g:NERDTreeIgnore	bundle/nerdtree/plugin/NERD_tree.vim	/^    let g:NERDTreeIgnore = ['\\~$']$/;"	v
+g:NERDTreeKeyMap	bundle/nerdtree/plugin/nerdtree/key_map.vim	/^let g:NERDTreeKeyMap = s:KeyMap$/;"	v
+g:NERDTreeMenuController	bundle/nerdtree/plugin/nerdtree/menu_controller.vim	/^let g:NERDTreeMenuController = s:MenuController$/;"	v
+g:NERDTreeMenuItem	bundle/nerdtree/plugin/nerdtree/menu_item.vim	/^let g:NERDTreeMenuItem = s:MenuItem$/;"	v
+g:NERDTreeOpener	bundle/nerdtree/plugin/nerdtree/opener.vim	/^let g:NERDTreeOpener = s:Opener$/;"	v
+g:NERDTreePath	bundle/nerdtree/plugin/nerdtree/path.vim	/^let g:NERDTreePath = s:Path$/;"	v
+g:NERDTreeSortOrder	bundle/nerdtree/plugin/NERD_tree.vim	/^    let g:NERDTreeSortOrder = ['\\\/$', '*', '\\.swp$',  '\\.bak$', '\\~$']$/;"	v
+g:NERDTreeStatusline	bundle/nerdtree/plugin/NERD_tree.vim	/^    let g:NERDTreeStatusline = "%{exists('b:NERDTreeRoot')?b:NERDTreeRoot.path.str():''}"$/;"	v
+g:ack_apply_lmappings	bundle/ack/plugin/ack.vim	/^  let g:ack_apply_lmappings = !exists("g:ack_lhandler")$/;"	v
+g:ack_apply_qmappings	bundle/ack/plugin/ack.vim	/^  let g:ack_apply_qmappings = !exists("g:ack_qhandler")$/;"	v
+g:ack_lhandler	bundle/ack/plugin/ack.vim	/^  let g:ack_lhandler="botright lopen"$/;"	v
+g:ack_qhandler	bundle/ack/plugin/ack.vim	/^  let g:ack_qhandler="botright copen"$/;"	v
+g:ackprg	bundle/ack/plugin/ack.vim	/^  let g:ackprg=s:ackcommand." -H --nocolor --nogroup --column"$/;"	v
+g:command_t_loaded	bundle/command-T/plugin/command-t.vim	/^let g:command_t_loaded = 1$/;"	v
+g:loaded_nerdtree_autoload	bundle/nerdtree/autoload/nerdtree.vim	/^let g:loaded_nerdtree_autoload = 1$/;"	v
+g:loaded_nerdtree_exec_menuitem	bundle/nerdtree/nerdtree_plugin/exec_menuitem.vim	/^let g:loaded_nerdtree_exec_menuitem = 1$/;"	v
+g:loaded_nerdtree_fs_menu	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^let g:loaded_nerdtree_fs_menu = 1$/;"	v
+g:loaded_pathogen	autoload/pathogen.vim	/^let g:loaded_pathogen = 1$/;"	v
+get_bool	bundle/command-T/ruby/command-t/controller.rb	/^    def get_bool name$/;"	f	class:CommandT.Controller
+get_bool	bundle/command-T/ruby/command-t/settings.rb	/^    def get_bool setting$/;"	f	class:CommandT.Settings
+get_cursor_highlight	bundle/command-T/ruby/command-t/match_window.rb	/^    def get_cursor_highlight$/;"	f	class:CommandT.MatchWindow.match_with_syntax_highlight
+get_list_or_string	bundle/command-T/ruby/command-t/controller.rb	/^    def get_list_or_string name$/;"	f	class:CommandT.Controller
+get_number	bundle/command-T/ruby/command-t/controller.rb	/^    def get_number name$/;"	f	class:CommandT.Controller
+get_number	bundle/command-T/ruby/command-t/settings.rb	/^    def get_number setting$/;"	f	class:CommandT.Settings
+get_string	bundle/command-T/ruby/command-t/controller.rb	/^    def get_string name$/;"	f	class:CommandT.Controller
+handleLeftClick	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:handleLeftClick()$/;"	f
+handleMiddleMouse	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:handleMiddleMouse()$/;"	f
+handle_key	bundle/command-T/ruby/command-t/controller.rb	/^    def handle_key$/;"	f	class:CommandT.Controller
+has_conceal	bundle/command-T/ruby/command-t/vim.rb	/^    def self.has_conceal?$/;"	F	class:CommandT.VIM
+has_syntax	bundle/command-T/ruby/command-t/vim.rb	/^    def self.has_syntax?$/;"	F	class:CommandT.VIM
+hide	bundle/command-T/ruby/command-t/controller.rb	/^    def hide$/;"	f	class:CommandT.Controller
+hide_cursor	bundle/command-T/ruby/command-t/match_window.rb	/^    def hide_cursor$/;"	f	class:CommandT.MatchWindow.match_with_syntax_highlight
+initVariable	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:initVariable(var, value)$/;"	f
+initialize	bundle/command-T/ruby/command-t/controller.rb	/^    def initialize$/;"	f	class:CommandT.Controller
+initialize	bundle/command-T/ruby/command-t/finder.rb	/^    def initialize path = Dir.pwd, options = {}$/;"	f	class:CommandT.Finder
+initialize	bundle/command-T/ruby/command-t/finder/buffer_finder.rb	/^    def initialize$/;"	f	class:CommandT.BufferFinder
+initialize	bundle/command-T/ruby/command-t/finder/file_finder.rb	/^    def initialize path = Dir.pwd, options = {}$/;"	f	class:CommandT.FileFinder
+initialize	bundle/command-T/ruby/command-t/finder/jump_finder.rb	/^    def initialize$/;"	f	class:CommandT.JumpFinder
+initialize	bundle/command-T/ruby/command-t/finder/tag_finder.rb	/^    def initialize options = {}$/;"	f	class:CommandT.TagFinder
+initialize	bundle/command-T/ruby/command-t/match_window.rb	/^    def initialize options = {}$/;"	f	class:CommandT.MatchWindow
+initialize	bundle/command-T/ruby/command-t/prompt.rb	/^    def initialize$/;"	f	class:CommandT.Prompt
+initialize	bundle/command-T/ruby/command-t/scanner/file_scanner.rb	/^    def initialize path = Dir.pwd, options = {}$/;"	f	class:CommandT.FileScanner
+initialize	bundle/command-T/ruby/command-t/scanner/tag_scanner.rb	/^    def initialize options = {}$/;"	f	class:CommandT.TagScanner
+initialize	bundle/command-T/ruby/command-t/settings.rb	/^    def initialize$/;"	f	class:CommandT.Settings
+jumpToFirstChild	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:jumpToFirstChild(node)$/;"	f
+jumpToLastChild	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:jumpToLastChild(node)$/;"	f
+jumpToNextSibling	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:jumpToNextSibling(node)$/;"	f
+jumpToParent	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:jumpToParent(node)$/;"	f
+jumpToPrevSibling	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:jumpToPrevSibling(node)$/;"	f
+jumpToRoot	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:jumpToRoot()$/;"	f
+jump_finder	bundle/command-T/ruby/command-t/controller.rb	/^    def jump_finder$/;"	f	class:CommandT.Controller.ensure_appropriate_window_selection
+jumps	bundle/command-T/ruby/command-t/scanner/jump_scanner.rb	/^    def jumps$/;"	f	class:CommandT.JumpScanner
+leave	bundle/command-T/ruby/command-t/controller.rb	/^    def leave$/;"	f	class:CommandT.Controller
+leave	bundle/command-T/ruby/command-t/match_window.rb	/^    def leave$/;"	f	class:CommandT.MatchWindow
+line_contains_filename?	bundle/command-T/ruby/command-t/scanner/jump_scanner.rb	/^    def line_contains_filename? line$/;"	f	class:CommandT.JumpScanner
+lines	bundle/command-T/ruby/command-t/vim/screen.rb	/^      def self.lines$/;"	F	class:CommandT.VIM.Screen
+list_matches	bundle/command-T/ruby/command-t/controller.rb	/^    def list_matches$/;"	f	class:CommandT.Controller.ensure_appropriate_window_selection
+loaded_nerd_tree	bundle/nerdtree/plugin/NERD_tree.vim	/^let loaded_nerd_tree = 1$/;"	v
+lock	bundle/command-T/ruby/command-t/match_window.rb	/^    def lock$/;"	f	class:CommandT.MatchWindow.match_with_syntax_highlight
+looped_symlink?	bundle/command-T/ruby/command-t/scanner/file_scanner.rb	/^    def looped_symlink? path$/;"	f	class:CommandT.FileScanner
+mCommandT	bundle/command-T/ruby/command-t/ext.c	/^VALUE mCommandT         = 0; \/\/ module CommandT$/;"	v
+map	bundle/command-T/ruby/command-t/controller.rb	/^    def map key, function, param = nil$/;"	f	class:CommandT.Controller.ensure_appropriate_window_selection
+match_for	bundle/command-T/spec/command-t/match_spec.rb	/^  def match_for path, pattern$/;"	f
+match_limit	bundle/command-T/ruby/command-t/controller.rb	/^    def match_limit$/;"	f	class:CommandT.Controller.ensure_appropriate_window_selection
+match_text_for_idx	bundle/command-T/ruby/command-t/match_window.rb	/^    def match_text_for_idx idx$/;"	f	class:CommandT.MatchWindow
+match_with_syntax_highlight	bundle/command-T/ruby/command-t/match_window.rb	/^    def match_with_syntax_highlight match$/;"	f	class:CommandT.MatchWindow
+matches=	bundle/command-T/ruby/command-t/match_window.rb	/^    def matches= matches$/;"	f	class:CommandT.MatchWindow
+matchinfo_t	bundle/command-T/ruby/command-t/match.c	/^} matchinfo_t;$/;"	t	typeref:struct:__anon1	file:
+max_height	bundle/command-T/ruby/command-t/controller.rb	/^    def max_height$/;"	f	class:CommandT.Controller
+max_score_per_char	bundle/command-T/ruby/command-t/match.c	/^    double  max_score_per_char;$/;"	m	struct:__anon1	file:
+min_height	bundle/command-T/ruby/command-t/controller.rb	/^    def min_height$/;"	f	class:CommandT.Controller
+missing	bundle/command-T/ruby/command-t/extconf.rb	/^def missing item$/;"	f
+move_cursor_to_selected_line	bundle/command-T/ruby/command-t/match_window.rb	/^    def move_cursor_to_selected_line$/;"	f	class:CommandT.MatchWindow
+nerdtree#bookmarkNode	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#bookmarkNode(...)$/;"	f
+nerdtree#bufInWindows	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#bufInWindows(bnum)$/;"	f
+nerdtree#centerView	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#centerView()$/;"	f
+nerdtree#chRoot	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#chRoot(node)$/;"	f
+nerdtree#chRootCwd	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#chRootCwd()$/;"	f
+nerdtree#checkForBrowse	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#checkForBrowse(dir)$/;"	f
+nerdtree#clearBookmarks	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#clearBookmarks(bookmarks)$/;"	f
+nerdtree#closeTree	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#closeTree()$/;"	f
+nerdtree#closeTreeIfOpen	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#closeTreeIfOpen()$/;"	f
+nerdtree#closeTreeIfQuitOnOpen	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#closeTreeIfQuitOnOpen()$/;"	f
+nerdtree#compareBookmarks	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#compareBookmarks(first, second)$/;"	f
+nerdtree#compareNodes	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#compareNodes(n1, n2)$/;"	f
+nerdtree#completeBookmarks	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#completeBookmarks(A,L,P)$/;"	f
+nerdtree#createDefaultBindings	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#createDefaultBindings()$/;"	f
+nerdtree#deprecated	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#deprecated(func, ...)$/;"	f
+nerdtree#dumpHelp	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#dumpHelp()$/;"	f
+nerdtree#echo	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#echo(msg)$/;"	f
+nerdtree#echoError	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#echoError(msg)$/;"	f
+nerdtree#echoWarning	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#echoWarning(msg)$/;"	f
+nerdtree#escChars	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#escChars()$/;"	f
+nerdtree#exec	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#exec(cmd)$/;"	f
+nerdtree#findAndRevealPath	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#findAndRevealPath()$/;"	f
+nerdtree#firstUsableWindow	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#firstUsableWindow()$/;"	f
+nerdtree#getPath	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#getPath(ln)$/;"	f
+nerdtree#getTreeWinNum	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#getTreeWinNum()$/;"	f
+nerdtree#has_opt	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#has_opt(options, name)$/;"	f
+nerdtree#indentLevelFor	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#indentLevelFor(line)$/;"	f
+nerdtree#invokeKeyMap	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#invokeKeyMap(key)$/;"	f
+nerdtree#isTreeOpen	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#isTreeOpen()$/;"	f
+nerdtree#isWindowUsable	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#isWindowUsable(winnumber)$/;"	f
+nerdtree#jumpToChild	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#jumpToChild(currentNode, direction)$/;"	f
+nerdtree#jumpToSibling	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#jumpToSibling(currentNode, forward)$/;"	f
+nerdtree#openBookmark	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#openBookmark(name)$/;"	f
+nerdtree#postSourceActions	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#postSourceActions()$/;"	f
+nerdtree#promptToDelBuffer	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#promptToDelBuffer(bufnum, msg)$/;"	f
+nerdtree#putCursorInTreeWin	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#putCursorInTreeWin()$/;"	f
+nerdtree#putCursorOnBookmarkTable	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#putCursorOnBookmarkTable()$/;"	f
+nerdtree#renderBookmarks	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#renderBookmarks()$/;"	f
+nerdtree#renderView	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#renderView()$/;"	f
+nerdtree#renderViewSavingPosition	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#renderViewSavingPosition()$/;"	f
+nerdtree#restoreScreenState	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#restoreScreenState()$/;"	f
+nerdtree#revealBookmark	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#revealBookmark(name)$/;"	f
+nerdtree#runningWindows	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#runningWindows()$/;"	f
+nerdtree#saveScreenState	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#saveScreenState()$/;"	f
+nerdtree#stripMarkupFromLine	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#stripMarkupFromLine(line, removeLeadingSpaces)$/;"	f
+nerdtree#tabpagevar	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#tabpagevar(tabnr, var)$/;"	f
+nerdtree#treeExistsForBuf	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#treeExistsForBuf()$/;"	f
+nerdtree#treeExistsForTab	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#treeExistsForTab()$/;"	f
+nerdtree#treeMarkupReg	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#treeMarkupReg()$/;"	f
+nerdtree#treeUpDirLine	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#treeUpDirLine()$/;"	f
+nerdtree#treeWid	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#treeWid()$/;"	f
+nerdtree#unique	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#unique(list)$/;"	f
+nerdtree#upDir	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#upDir(keepState)$/;"	f
+nerdtree#version	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#version()$/;"	f
+never_show_dot_files	bundle/command-T/ruby/command-t/match.c	/^    int     never_show_dot_files;   \/\/ boolean$/;"	m	struct:__anon1	file:
+openExplorer	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:openExplorer(node)$/;"	f
+openHSplit	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:openHSplit(target)$/;"	f
+openInNewTab	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:openInNewTab(target)$/;"	f
+openInNewTabSilent	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:openInNewTabSilent(target)$/;"	f
+openNodeRecursively	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:openNodeRecursively(node)$/;"	f
+openVSplit	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:openVSplit(target)$/;"	f
+open_selection	bundle/command-T/ruby/command-t/controller.rb	/^    def open_selection selection, options = {}$/;"	f	class:CommandT.Controller.ensure_appropriate_window_selection
+open_selection	bundle/command-T/ruby/command-t/finder.rb	/^    def open_selection command, selection, options = {}$/;"	f	class:CommandT.Finder
+open_selection	bundle/command-T/ruby/command-t/finder/tag_finder.rb	/^    def open_selection command, selection, options = {}$/;"	f	class:CommandT.TagFinder
+padding_for_selected_match	bundle/command-T/ruby/command-t/match_window.rb	/^    def padding_for_selected_match str$/;"	f	class:CommandT.MatchWindow.match_with_syntax_highlight
+path=	bundle/command-T/ruby/command-t/finder.rb	/^    def path= path$/;"	f	class:CommandT.Finder
+path_excluded?	bundle/command-T/ruby/command-t/scanner/file_scanner.rb	/^    def path_excluded? path$/;"	f	class:CommandT.FileScanner
+pathogen#cycle_filetype	autoload/pathogen.vim	/^function! pathogen#cycle_filetype() " {{{1$/;"	f
+pathogen#execute	autoload/pathogen.vim	/^function! pathogen#execute(...) abort " {{{1$/;"	f
+pathogen#fnameescape	autoload/pathogen.vim	/^function! pathogen#fnameescape(string) abort " {{{1$/;"	f
+pathogen#glob	autoload/pathogen.vim	/^function! pathogen#glob(pattern) abort " {{{1$/;"	f
+pathogen#glob_directories	autoload/pathogen.vim	/^function! pathogen#glob_directories(pattern) abort " {{{1$/;"	f
+pathogen#helptags	autoload/pathogen.vim	/^function! pathogen#helptags() abort " {{{1$/;"	f
+pathogen#incubate	autoload/pathogen.vim	/^function! pathogen#incubate(...) abort " {{{1$/;"	f
+pathogen#infect	autoload/pathogen.vim	/^function! pathogen#infect(...) abort " {{{1$/;"	f
+pathogen#is_disabled	autoload/pathogen.vim	/^function! pathogen#is_disabled(path) " {{{1$/;"	f
+pathogen#join	autoload/pathogen.vim	/^function! pathogen#join(...) abort " {{{1$/;"	f
+pathogen#legacyjoin	autoload/pathogen.vim	/^function! pathogen#legacyjoin(...) abort " {{{1$/;"	f
+pathogen#runtime_append_all_bundles	autoload/pathogen.vim	/^function! pathogen#runtime_append_all_bundles(...) abort " {{{1$/;"	f
+pathogen#runtime_findfile	autoload/pathogen.vim	/^function! pathogen#runtime_findfile(file,count) abort "{{{1$/;"	f
+pathogen#runtime_prepend_subdirectories	autoload/pathogen.vim	/^function! pathogen#runtime_prepend_subdirectories(path) " {{{1$/;"	f
+pathogen#separator	autoload/pathogen.vim	/^function! pathogen#separator() abort " {{{1$/;"	f
+pathogen#split	autoload/pathogen.vim	/^function! pathogen#split(path) abort " {{{1$/;"	f
+pathogen#surround	autoload/pathogen.vim	/^function! pathogen#surround(path) abort " {{{1$/;"	f
+pathogen#uniq	autoload/pathogen.vim	/^function! pathogen#uniq(list) abort " {{{1$/;"	f
+paths	bundle/command-T/ruby/command-t/scanner/buffer_scanner.rb	/^    def paths$/;"	f	class:CommandT.BufferScanner
+paths	bundle/command-T/ruby/command-t/scanner/file_scanner.rb	/^    def paths$/;"	f	class:CommandT.FileScanner
+paths	bundle/command-T/ruby/command-t/scanner/jump_scanner.rb	/^    def paths$/;"	f	class:CommandT.JumpScanner
+paths	bundle/command-T/ruby/command-t/scanner/tag_scanner.rb	/^    def paths$/;"	f	class:CommandT.TagScanner
+previewNodeCurrent	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:previewNodeCurrent(node)$/;"	f
+previewNodeHSplit	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:previewNodeHSplit(node)$/;"	f
+previewNodeVSplit	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:previewNodeVSplit(node)$/;"	f
+print_error	bundle/command-T/ruby/command-t/match_window.rb	/^    def print_error msg$/;"	f	class:CommandT.MatchWindow
+print_match	bundle/command-T/ruby/command-t/match_window.rb	/^    def print_match idx$/;"	f	class:CommandT.MatchWindow.match_with_syntax_highlight
+print_matches	bundle/command-T/ruby/command-t/match_window.rb	/^    def print_matches$/;"	f	class:CommandT.MatchWindow.match_with_syntax_highlight
+print_no_such_file_or_directory	bundle/command-T/ruby/command-t/match_window.rb	/^    def print_no_such_file_or_directory$/;"	f	class:CommandT.MatchWindow
+promptToDelBuffer	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! s:promptToDelBuffer(bufnum, msg)$/;"	f
+promptToRenameBuffer	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! s:promptToRenameBuffer(bufnum, msg, newFileName)$/;"	f
+pwd	bundle/command-T/ruby/command-t/vim.rb	/^    def self.pwd$/;"	F	class:CommandT.VIM
+recursive_match	bundle/command-T/ruby/command-t/match.c	/^double recursive_match(matchinfo_t *m,  \/\/ sharable meta-data$/;"	f
+redraw	bundle/command-T/ruby/command-t/prompt.rb	/^    def redraw$/;"	f	class:CommandT.Prompt
+refresh	bundle/command-T/ruby/command-t/controller.rb	/^    def refresh$/;"	f	class:CommandT.Controller
+refreshCurrent	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:refreshCurrent(node)$/;"	f
+refreshRoot	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:refreshRoot()$/;"	f
+register_for_key_presses	bundle/command-T/ruby/command-t/controller.rb	/^    def register_for_key_presses$/;"	f	class:CommandT.Controller.ensure_appropriate_window_selection
+relative_path_under_working_directory	bundle/command-T/ruby/command-t/vim/path_utilities.rb	/^      def relative_path_under_working_directory path$/;"	f	class:CommandT.VIM.PathUtilities
+relativize_path	bundle/command-T/spec/vim_formatter.rb	/^        def relativize_path path$/;"	f	class:Spec.Runner.Formatter.VimFormatter
+restore	bundle/command-T/ruby/command-t/settings.rb	/^    def restore$/;"	f	class:CommandT.Settings
+restore_window_dimensions	bundle/command-T/ruby/command-t/match_window.rb	/^    def restore_window_dimensions$/;"	f	class:CommandT.MatchWindow
+ruby_inspect	bundle/command-T/ruby/command-t/ext.h	36;"	d
+rubyfiles	bundle/command-T/Makefile	/^rubyfiles   := $(shell find ruby -name '*.rb')$/;"	m
+s:Bookmark	bundle/nerdtree/plugin/nerdtree/bookmark.vim	/^let s:Bookmark = {}$/;"	v
+s:Creator	bundle/nerdtree/plugin/nerdtree/creator.vim	/^let s:Creator = {}$/;"	v
+s:KeyMap	bundle/nerdtree/plugin/nerdtree/key_map.vim	/^let s:KeyMap = {}$/;"	v
+s:MenuController	bundle/nerdtree/plugin/nerdtree/menu_controller.vim	/^let s:MenuController = {}$/;"	v
+s:MenuItem	bundle/nerdtree/plugin/nerdtree/menu_item.vim	/^let s:MenuItem = {}$/;"	v
+s:NERDTreeSortStarIndex	bundle/nerdtree/plugin/nerdtree/path.vim	/^let s:NERDTreeSortStarIndex = index(g:NERDTreeSortOrder, '*')$/;"	v
+s:Opener	bundle/nerdtree/plugin/nerdtree/opener.vim	/^let s:Opener = {}$/;"	v
+s:Path	bundle/nerdtree/plugin/nerdtree/path.vim	/^let s:Path = {}$/;"	v
+s:TreeDirNode	bundle/nerdtree/plugin/nerdtree/tree_dir_node.vim	/^let s:TreeDirNode = copy(g:NERDTreeFileNode)$/;"	v
+s:TreeFileNode	bundle/nerdtree/plugin/nerdtree/tree_file_node.vim	/^let s:TreeFileNode = {}$/;"	v
+s:ackcommand	bundle/ack/plugin/ack.vim	/^  let s:ackcommand = executable('ack-grep') ? 'ack-grep' : 'ack'$/;"	v
+s:done_bundles	autoload/pathogen.vim	/^let s:done_bundles = ''$/;"	v
+s:old_cpo	bundle/nerdtree/plugin/NERD_tree.vim	/^let s:old_cpo = &cpo$/;"	v
+s:tree_up_dir_line	bundle/nerdtree/syntax/nerdtree.vim	/^let s:tree_up_dir_line = '.. (up a dir)'$/;"	v
+s:vopen_warning	autoload/pathogen.vim	/^let s:vopen_warning = 0$/;"	v
+sanitize_path_string	bundle/command-T/ruby/command-t/controller.rb	/^    def sanitize_path_string str$/;"	f	class:CommandT.Controller
+save	bundle/command-T/ruby/command-t/settings.rb	/^    def save$/;"	f	class:CommandT.Settings
+select	bundle/command-T/ruby/command-t/vim/window.rb	/^      def self.select window$/;"	F	class:CommandT.VIM.Window
+select_next	bundle/command-T/ruby/command-t/controller.rb	/^    def select_next$/;"	f	class:CommandT.Controller
+select_next	bundle/command-T/ruby/command-t/match_window.rb	/^    def select_next$/;"	f	class:CommandT.MatchWindow
+select_prev	bundle/command-T/ruby/command-t/controller.rb	/^    def select_prev$/;"	f	class:CommandT.Controller
+select_prev	bundle/command-T/ruby/command-t/match_window.rb	/^    def select_prev$/;"	f	class:CommandT.MatchWindow
+selection	bundle/command-T/ruby/command-t/match_window.rb	/^    def selection$/;"	f	class:CommandT.MatchWindow
+set_bool	bundle/command-T/ruby/command-t/settings.rb	/^    def set_bool setting, value$/;"	f	class:CommandT.Settings
+set_number	bundle/command-T/ruby/command-t/settings.rb	/^    def set_number setting, value$/;"	f	class:CommandT.Settings
+set_status	bundle/command-T/ruby/command-t/prompt.rb	/^    def set_status *args$/;"	f	class:CommandT.Prompt
+show	bundle/command-T/ruby/command-t/controller.rb	/^    def show$/;"	f	class:CommandT.Controller
+showMenu	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:showMenu(node)$/;"	f
+show_buffer_finder	bundle/command-T/ruby/command-t/controller.rb	/^    def show_buffer_finder$/;"	f	class:CommandT.Controller
+show_cursor	bundle/command-T/ruby/command-t/match_window.rb	/^    def show_cursor$/;"	f	class:CommandT.MatchWindow.match_with_syntax_highlight
+show_file_finder	bundle/command-T/ruby/command-t/controller.rb	/^    def show_file_finder$/;"	f	class:CommandT.Controller
+show_jump_finder	bundle/command-T/ruby/command-t/controller.rb	/^    def show_jump_finder$/;"	f	class:CommandT.Controller
+show_tag_finder	bundle/command-T/ruby/command-t/controller.rb	/^    def show_tag_finder$/;"	f	class:CommandT.Controller
+sorted_matches_for	bundle/command-T/ruby/command-t/finder.rb	/^    def sorted_matches_for str, options = {}$/;"	f	class:CommandT.Finder
+str_len	bundle/command-T/ruby/command-t/match.c	/^    long    str_len;                \/\/ length of same$/;"	m	struct:__anon1	file:
+str_p	bundle/command-T/ruby/command-t/match.c	/^    char    *str_p;                 \/\/ pointer to string to be searched$/;"	m	struct:__anon1	file:
+stub_finder	bundle/command-T/spec/command-t/controller_spec.rb	/^  def stub_finder(sorted_matches=[])$/;"	f
+stub_match_window	bundle/command-T/spec/command-t/controller_spec.rb	/^  def stub_match_window(selection)$/;"	f
+stub_prompt	bundle/command-T/spec/command-t/controller_spec.rb	/^  def stub_prompt(abbrev='')$/;"	f
+stub_vim	bundle/command-T/spec/command-t/controller_spec.rb	/^  def stub_vim(working_directory)$/;"	f
+tag_finder	bundle/command-T/ruby/command-t/controller.rb	/^    def tag_finder$/;"	f	class:CommandT.Controller.ensure_appropriate_window_selection
+taglist	bundle/command-T/ruby/command-t/scanner/tag_scanner.rb	/^    def taglist$/;"	f	class:CommandT.TagScanner.paths
+term	bundle/command-T/ruby/command-t/controller.rb	/^    def term$/;"	f	class:CommandT.Controller.ensure_appropriate_window_selection
+toggleIgnoreFilter	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:toggleIgnoreFilter()$/;"	f
+toggleShowBookmarks	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:toggleShowBookmarks()$/;"	f
+toggleShowFiles	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:toggleShowFiles()$/;"	f
+toggleShowHidden	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:toggleShowHidden()$/;"	f
+toggleZoom	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:toggleZoom()$/;"	f
+toggle_focus	bundle/command-T/ruby/command-t/controller.rb	/^    def toggle_focus$/;"	f	class:CommandT.Controller
+truncated_match	bundle/command-T/ruby/command-t/match_window.rb	/^    def truncated_match str$/;"	f	class:CommandT.MatchWindow.match_with_syntax_highlight
+txtfiles	bundle/command-T/Makefile	/^txtfiles    := $(shell find doc -name '*.txt')$/;"	m
+unfocus	bundle/command-T/ruby/command-t/match_window.rb	/^    def unfocus$/;"	f	class:CommandT.MatchWindow
+unfocus	bundle/command-T/ruby/command-t/prompt.rb	/^    def unfocus$/;"	f	class:CommandT.Prompt
+unload	bundle/command-T/ruby/command-t/controller.rb	/^    def unload$/;"	f	class:CommandT.Controller
+unload	bundle/command-T/ruby/command-t/match_window.rb	/^    def unload$/;"	f	class:CommandT.MatchWindow
+unlock	bundle/command-T/ruby/command-t/match_window.rb	/^    def unlock$/;"	f	class:CommandT.MatchWindow.match_with_syntax_highlight
+upDirCurrentRootClosed	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:upDirCurrentRootClosed()$/;"	f
+upDirCurrentRootOpen	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:upDirCurrentRootOpen()$/;"	f
+vimfiles	bundle/command-T/Makefile	/^vimfiles    := $(shell find plugin -name '*.vim')$/;"	m
+warn	autoload/pathogen.vim	/^function! s:warn(msg)$/;"	f
+warn	bundle/command-T/ruby/command-t/stub.rb	/^    def warn *msg$/;"	f	class:CommandT.Stub
