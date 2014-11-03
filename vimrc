@@ -26,6 +26,7 @@ Bundle 'klen/python-mode'
 Bundle 'Valloric/ListToggle'
 Bundle 'SirVer/ultisnips'
 Bundle 'scrooloose/nerdtree'
+Bundle 'majutsushi/tagbar'
 " Bundle 'Valloric/YouCompleteMe'
 " Bundle 'scrooloose/syntastic'
 " Bundle 't9md/vim-quickhl'
@@ -72,3 +73,15 @@ set mouse=a
 set tabstop=4
 let mapleader = ","
 let g:mapleader = ","
+
+"  <F3> turn on/off line number display
+nmap <F3> :set invnumber<CR>
+
+"  <F4> turn on/off tagbar
+nmap <F4> :TagbarToggle<CR>
+
+"set paste, in insert mode, press<F5> to go to paste mode
+set pastetoggle=<F5>
+
+" disable paste mode when leaving insert mode
+au InsertLeave * set nopaste
